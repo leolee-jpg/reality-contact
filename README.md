@@ -2,7 +2,7 @@
 
 **Does a coordination signal still track the world, or has it started feeding on its own past?**
 
-Interactive sandbox (runs in the browser, no install): https://claude.ai/artifact/BwA5aRoozPVcxshuKqEjBH
+Interactive sandbox (runs in the browser, no install): https://leolee-jpg.github.io/reality-contact/
 
 ![Surface link persists while reality contact collapses](outputs/scissors.png)
 
@@ -114,6 +114,7 @@ This sweeps reflexivity from 0 to 1, prints both quantities, and saves
     outcome; the drop in held-out cross-entropy is `I_t`. This version scales
     to high-dimensional signals such as text embeddings.
 - `src/run_synthetic.py`: the sweep and plot.
+- `index.html`: the interactive sandbox, self-contained (served by GitHub Pages).
 
 ## Results
 
